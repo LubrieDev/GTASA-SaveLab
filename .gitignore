@@ -1,0 +1,26 @@
+# Private development environment
+.dev/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Save files: never commit real saves.
+# The file below is the pinned test fixture and is the ONLY exception.
+*.b
+!savefiles/base.b
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
